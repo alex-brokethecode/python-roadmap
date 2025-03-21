@@ -1,6 +1,7 @@
 # Check if the key "publisher" exists in the book dictionary. Print "Exists" or "Does not exist".
 
 # [ My Solution ]
+
 book: dict[str, str] = {
     'title': 'The Call of the Wild',
     'author': 'Jack London',
