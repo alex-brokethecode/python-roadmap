@@ -61,20 +61,21 @@ evens = [x for x in range(10) if x % 2 == 0]  # [0, 2, 4, 6, 8]
 
 ## 📌 Easy Level
 
-1️⃣ Create a list with numbers from 1 to 10 and print the third element. [Solution](./Exercises/01.py)
-2️⃣ Add the number 11 to the end of the list and remove the first number. [Solution](./Exercises/02.py)
-3️⃣ Create a list of squares for numbers from 1 to 10 using list comprehension. [Solution](./Exercises/03.py)
+- 1️⃣ Create a list with numbers from 1 to 10 and print the third element. [Solution](./Exercises/01.py)
+- 2️⃣ Add the number 11 to the end of the list and remove the first number. [Solution](./Exercises/02.py)
+- 3️⃣ Create a list of squares for numbers from 1 to 10 using list comprehension. [Solution](./Exercises/03.py)
 
 ## 📌 Medium Level
 
-4️⃣ Given a list of names, remove duplicates while keeping the original order.  
-5️⃣ Reverse a list without using the `.reverse()` method.  
-6️⃣ Find the largest and smallest number in a list without using `max()` or `min()`.
+- 4️⃣ Given a list of names, remove duplicates while keeping the original order. [Solution](./Exercises/04.py)
+- 5️⃣ Reverse a list without using the `.reverse()` method. [Solution](./Exercises/05.py)
+- 6️⃣ Find the largest and smallest number in a list without using `max()` or `min()`. [Solution](./Exercises/06.py)
 
 ## 📌 Hard Level
 
-7️⃣ Write a program that **merges two lists of the same length by alternating elements**.  
- **Example:**
+- 7️⃣ Write a program that **merges two lists of the same length by alternating elements**. [Solution](./Exercises/07.py)
+
+  **Example:**
 
 ```python
 list1 = [1, 3, 5]
@@ -82,4 +83,4 @@ list2 = [2, 4, 6]
 output = [1, 2, 3, 4, 5, 6]
 ```
 
-8️⃣ Implement a function that **removes duplicates without using `set()`** and maintains the original order.
+- 8️⃣ Implement a function that **removes duplicates without using `set()`** and maintains the original order. [Solution](./Exercises/08.py)
