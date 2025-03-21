@@ -5,6 +5,7 @@
 - [Lists](./Lists/Lists.md)
 - [Dicts](./Dicts/Dicts.md)
 - [Tuples](./Tuples/Tuples.md)
+- [Sets](./Sets/Sets.md)
 
 ## 🚀 Roadmap
 
@@ -54,32 +55,41 @@
 
 ---
 
-List, Dict, Set comprehensions
-Advanced Functions (Lambda, Map, Filter, Reduce)
-Decorators & Generators
-Error Handling (Custom Exceptions)
-Regular Expressions (re module)
+- List, Dict, Set comprehensions
+- Advanced Functions (Lambda, Map, Filter, Reduce)
+- Decorators & Generators
+- Error Handling (Custom Exceptions)
+- Regular Expressions (re module)
 
-Classes & Objects, Magic Methods (**str**, **repr**, **len**)
-Encapsulation, Inheritance, Polymorphism
-Abstract Classes & Interfaces (ABC module)
-Design Patterns: Singleton, Factory, Observer
+---
 
-Reading & Writing Files (open(), with statements)
-Working with OS & Paths (os, shutil, pathlib)
-Multi-threading & Multiprocessing
-Automating File Management
+- Classes & Objects, Magic Methods (**str**, **repr**, **len**)
+- Encapsulation, Inheritance, Polymorphism
+- Abstract Classes & Interfaces (ABC module)
+- Design Patterns: Singleton, Factory, Observer
 
-Understanding Synchronous vs Asynchronous
-Using asyncio for non-blocking I/O operations
-Threading vs Multiprocessing
-Writing Async APIs
+---
+
+- Reading & Writing Files (open(), with statements)
+- Working with OS & Paths (os, shutil, pathlib)
+- Multi-threading & Multiprocessing
+- Automating File Management
+
+---
+
+- Understanding Synchronous vs Asynchronous
+- Using asyncio for non-blocking I/O operations
+- Threading vs Multiprocessing
+- Writing Async APIs
+
+---
 
 🎯 Final Project (Applying Everything)
-✅ Automated AI-Powered Web Scraper & Data Analyzer
-🔹 Uses: Async requests, OOP, File Handling, Regex
-🔹 Steps:
 
-Fetch data from a website (async web scraping)
-Clean & analyze data (Regex & Pandas)
-Store results in a structured file (CSV/JSON)
+✅ Automated AI-Powered Web Scraper & Data Analyzer
+
+- Uses: Async requests, OOP, File Handling, Regex
+- Steps:
+  - Fetch data from a website (async web scraping)
+  - Clean & analyze data (Regex & Pandas)
+  - Store results in a structured file (CSV/JSON)
