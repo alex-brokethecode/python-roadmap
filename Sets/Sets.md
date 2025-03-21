@@ -27,7 +27,7 @@ print(numbers)  # Output: {1, 2, 3, 4, 5}
 
 ---
 
-### 🔹 **Adding and Removing Elements**
+### **Adding and Removing Elements**
 
 ```python
 fruits = {"apple", "banana"}
@@ -94,25 +94,25 @@ print(numbers.issuperset(small_set))  # True
 ### **Easy Level**
 
 1. Create a set with numbers from 1 to 5 and print it. [Solution](./Exercises/01.py)
-2. Add the number 6 to the set, then remove the number 2.
-3. Check if the number 3 is in the set and print the result.
+2. Add the number 6 to the set, then remove the number 2. [Solution](./Exercises/02.py)
+3. Check if the number 3 is in the set and print the result. [Solution](./Exercises/03.py)
 
 ---
 
 ### **Medium Level**
 
-4. Merge two sets `{1, 2, 3}` and `{3, 4, 5}` using a set operation.
-5. Find the common elements between `{10, 20, 30, 40}` and `{30, 40, 50, 60}`.
-6. Remove duplicates from the list `[5, 10, 10, 15, 20, 20, 25]` and return a set.
+4. Merge two sets `{1, 2, 3}` and `{3, 4, 5}` using a set operation. [Solution](./Exercises/04.py)
+5. Find the common elements between `{10, 20, 30, 40}` and `{30, 40, 50, 60}`. [Solution](./Exercises/05.py)
+6. Remove duplicates from the list `[5, 10, 10, 15, 20, 20, 25]` and return a set. [Solution](./Exercises/06.py)
 
 ---
 
 ### **Hard Level**
 
-7. Given two sets `{1, 2, 3, 4, 5}` and `{4, 5, 6, 7, 8}`, find:
+7. Given two sets `{1, 2, 3, 4, 5}` and `{4, 5, 6, 7, 8}`, find: [Solution](./Exercises/07.py)
 
    - Elements present in the first set but not in the second.
    - Elements present in either of the sets but not both.
 
-8. Count how many times each word appears in `"apple banana apple orange banana apple"` and store the result in a set.
-9. Find the most common element in `{1, 2, 3, 2, 4, 3, 2, 5, 3, 3, 3, 4}`.
+8. Count how many times each word appears in `"apple banana apple orange banana apple"` and store the result in a set. [Solution](./Exercises/08.py)
+9. Find the most common element in `{1, 2, 3, 2, 4, 3, 2, 5, 3, 3, 3, 4}`. [Solution](./Exercises/09.py)

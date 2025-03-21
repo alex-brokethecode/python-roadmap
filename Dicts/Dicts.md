@@ -1,13 +1,13 @@
-# 📌 Topic 2: Dictionaries in Python
+# Topic 2: Dictionaries in Python
 
-## 📖 Theory
+## Theory
 
 A **dictionary** in Python is an **unordered**, **mutable** collection that stores **key-value pairs**.  
 Keys must be **unique** and **immutable** (e.g., strings, numbers, or tuples), while values can be of any type.
 
 ---
 
-### 🔹 **Creating Dictionaries**
+### **Creating Dictionaries**
 
 ```python
 # Empty dictionary
@@ -23,7 +23,7 @@ person = {
 
 ---
 
-### 🔹 **Accessing Values**
+### **Accessing Values**
 
 ```python
 print(person["name"])  # Output: Alice
@@ -35,7 +35,7 @@ print(person.get("country", "Not found"))  # Output: Not found
 
 ---
 
-### 🔹 **Modifying Dictionaries**
+### **Modifying Dictionaries**
 
 ```python
 # Add or update key-value pairs
@@ -51,7 +51,7 @@ age = person.pop("age")  # Returns 26
 
 ---
 
-### 🔹 **Looping Through Dictionaries**
+### **Looping Through Dictionaries**
 
 ```python
 for key in person:
@@ -64,7 +64,7 @@ for key, value in person.items():
 
 ---
 
-### 🔹 **Dictionary Methods**
+### **Dictionary Methods**
 
 ```python
 person.keys()  # Returns a list of keys
@@ -74,7 +74,7 @@ person.items()  # Returns key-value pairs
 
 ---
 
-### 🔹 **Dictionary Comprehensions**
+### **Dictionary Comprehensions**
 
 ```python
 # Create a dictionary with squares of numbers 1 to 5
@@ -84,9 +84,9 @@ print(squares)  # {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
 
 ---
 
-## 🏆 **Exercises**
+## **Exercises**
 
-### 🟢 Easy Level
+### Easy Level
 
 1. **Create a dictionary representing a book with "title", "author", and "year" keys. Print the title.** [Solution](./Exercises/01.py)
 2. **Add a new key "genre" to the book dictionary and set its value to "fiction".** [Solution](./Exercises/02.py)
@@ -94,7 +94,7 @@ print(squares)  # {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
 
 ---
 
-### 🔵 Medium Level
+### Medium Level
 
 4. **Merge two dictionaries into one. Example:**
    ```python
@@ -111,7 +111,7 @@ print(squares)  # {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
 
 ---
 
-### 🔴 Hard Level
+### Hard Level
 
 7. **Invert a dictionary (keys become values and values become keys).**
    ```python
