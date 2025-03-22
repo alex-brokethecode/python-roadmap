@@ -1,17 +1,16 @@
-# Python Roadmap with AI
-
-## Topics
-
-- [Lists](./Lists/Lists.md)
-- [Dicts](./Dicts/Dicts.md)
-- [Tuples](./Tuples/Tuples.md)
-- [Sets](./Sets/Sets.md)
+# Python Roadmap
 
 ## 🚀 Roadmap
 
 1️⃣ Python Fundamentals & Advanced Concepts (Solid Foundation)
 
 - Variables, Data Types, Loops, Functions
+  - [Advanced Functions](./Functions/Advanced_Functions.md)
+- Data Structures
+  - [Lists](./Lists/Lists.md)
+  - [Dicts](./Dicts/Dicts.md)
+  - [Tuples](./Tuples/Tuples.md)
+  - [Sets](./Sets/Sets.md)
 - Object-Oriented Programming (OOP)
 - File Handling & OS Automation
 - Regular Expressions & Exception Handling
@@ -55,8 +54,8 @@
 
 ---
 
-- List, Dict, Set comprehensions
-- Advanced Functions (Lambda, Map, Filter, Reduce)
+## Pending
+
 - Decorators & Generators
 - Error Handling (Custom Exceptions)
 - Regular Expressions (re module)
