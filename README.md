@@ -12,6 +12,7 @@
   - [Tuples](./Tuples/Tuples.md)
   - [Sets](./Sets/Sets.md)
 - Object-Oriented Programming (OOP)
+  - [Pillars](./OOP/OOP_Pillars.md)
 - File Handling & OS Automation
 - Regular Expressions & Exception Handling
 - Asynchronous Programming (asyncio, multiprocessing)
@@ -62,8 +63,6 @@
 
 ---
 
-- Classes & Objects, Magic Methods (**str**, **repr**, **len**)
-- Encapsulation, Inheritance, Polymorphism
 - Abstract Classes & Interfaces (ABC module)
 - Design Patterns: Singleton, Factory, Observer
 
