@@ -167,16 +167,16 @@ print(cat.speak())  # Output: Meow!
 
 ## **Medium Level**
 4. **Create a `Student` class** that inherits from `Person`. Add a new attribute `grade` and modify `greet()` to include the grade. [Solution](./Exercises/04.py)
-5. **Create a `BankAccount` class** with a private attribute `_balance`. Add methods to deposit, withdraw, and get balance. [Solution](./Exercises/05.py)
-6. **Modify `BankAccount` to prevent overdraft** (don't allow withdrawal if balance is insufficient). [Solution](./Exercises/06.py)
-7. **Create a `Shape` abstract class** with an abstract method `area()`. Implement `Circle` and `Square` classes that inherit from `Shape`. [Solution](./Exercises/07.py)
+5. **Create a `BankAccount` class** with a private attribute `_balance`. Add methods to deposit, withdraw, and get balance. [Solution](./Exercises/05.py) 
+    - Note: Prevent overdraft (don't allow withdrawal if balance is insufficient) 
+6. **Create a `Shape` abstract class** with an abstract method `area()`. Implement `Circle` and `Square` classes that inherit from `Shape`. [Solution](./Exercises/06.py)
 
 ## **Hard Level**
-8. **Implement a `Company` class** that manages a list of `Employee` objects. [Solution](./Exercises/08.py)  
+7. **Implement a `Company` class** that manages a list of `Employee` objects. [Solution](./Exercises/07.py)  
    - The `Employee` class should have `name` and `salary`.  
    - The `Company` class should have methods to add an employee, remove an employee, and calculate the total salary.
-9. **Create a `Library` class** that manages a list of books. [Solution](./Exercises/09.py)
+8. **Create a `Library` class** that manages a list of books. [Solution](./Exercises/08.py)
    - Books should be stored as a list of `Book` objects (created earlier).  
    - Implement methods to add books, remove books, and search books by title.
-10. **Create a `Vehicle` class with a `fuel_efficiency()` abstract method.**  [Solution](./Exercises/10.py)
+9. **Create a `Vehicle` class with a `fuel_efficiency()` abstract method.**  [Solution](./Exercises/09.py)
    - Implement `Car` and `Motorcycle` classes with different fuel efficiency calculations.
