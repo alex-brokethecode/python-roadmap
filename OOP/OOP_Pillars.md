@@ -156,6 +156,71 @@ cat = Cat()
 print(cat.speak())  # Output: Meow!
 ```
 
+## Class Methods (`@classmethod`)
+- Affect the **class itself**, not an instance.
+- Work with `cls` (class reference).
+- Used for:
+  - **Alternative constructors**
+  - **Modifying class attributes**
+
+### **Example 1: Alternative Constructor**
+```python
+class Person:
+    def __init__(self, name: str, age: int) -> None:
+        self.name = name
+        self.age = age
+
+    @classmethod
+    def from_birth_year(cls, name: str, birth_year: int) -> "Person":
+        return cls(name, 2025 - birth_year)
+
+p = Person.from_birth_year("Alice", 1995)
+print(p.age)  # 30
+```
+
+### **Example 2: Modifying Class Attributes**
+```python
+class Counter:
+    count = 0  # Class attribute
+
+    def __init__(self) -> None:
+        Counter.count += 1
+
+    @classmethod
+    def total_instances(cls) -> int:
+        return cls.count
+
+print(Counter.total_instances())  # 0
+c1 = Counter()
+print(Counter.total_instances())  # 1
+```
+
+## Abstract Class Methods (`@classmethod @abstractmethod`)
+- Used when subclasses **must implement** a **class-level method**.
+- Works with `cls`, **not** `self`.
+
+### **Example:**
+```python
+from abc import ABC, abstractmethod
+
+class Database(ABC):
+    connections = 0  # Class attribute
+
+    @classmethod
+    @abstractmethod
+    def connect(cls) -> None:
+        pass
+
+class MySQLDatabase(Database):
+    @classmethod
+    def connect(cls) -> None:
+        cls.connections += 1
+        print(f"MySQL connected. Total connections: {cls.connections}")
+
+mysql = MySQLDatabase()
+mysql.connect()  # MySQL connected. Total connections: 1
+```
+
 ---
 
 # Exercises
