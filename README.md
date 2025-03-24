@@ -1,93 +1,65 @@
 # Python Roadmap
 
-## 🚀 Roadmap
+1. **Python Fundamentals:**
 
-1️⃣ Python Fundamentals & Advanced Concepts (Solid Foundation)
+   - Variables, Data Types, and Operators
+   - Control Flow (if, loops)
+   - (^\_^) [Functions](./Fundamentals/Functions/Advanced_Functions.md)
+   - Data Structures
+     - [Lists](./Fundamentals/Lists/Lists.md)
+     - [Dicts](./Fundamentals/Dicts/Dicts.md)
+     - [Tuples](./Fundamentals/Tuples/Tuples.md)
+     - [Sets](./Fundamentals/Sets/Sets.md)
 
-- Variables, Data Types, Loops, Functions
-  - [Advanced Functions](./Functions/Advanced_Functions.md)
-- Data Structures
-  - [Lists](./Lists/Lists.md)
-  - [Dicts](./Dicts/Dicts.md)
-  - [Tuples](./Tuples/Tuples.md)
-  - [Sets](./Sets/Sets.md)
-- Object-Oriented Programming (OOP)
-  - [Pillars](./OOP/OOP_Pillars.md)
-- File Handling & OS Automation
-- Regular Expressions & Exception Handling
-- Asynchronous Programming (asyncio, multiprocessing)
+2. **Object-Oriented Programming (OOP):**
 
-2️⃣ Automation & AI-Powered Scripting (Practical Skills)
+   - (^\_^) [Classes and Objects](./OOP/OOP_Pillars.md)
+   - Inheritance
+   - Polymorphism
+   - Encapsulation
 
-- Web Scraping (BeautifulSoup, Scrapy)
-- Task Automation (Selenium, PyAutoGUI, AutoGPT)
-- API Integration (Requests, FastAPI for automation)
-- AI-enhanced Automation (AI Bots, ChatGPT API)
+3. **Advanced Python:**
 
-3️⃣ Web Development with Python (Django & FastAPI)
+   - [Decorators](./Advanced/Decorators/Decorators.md)
+   - Generators and Iterators
+   - Context Managers
+   - Regular Expressions
+   - Asynchronous Programming (asyncio)
 
-- Django (MVC pattern, Models, Views, Templates)
-- Django REST Framework (Building APIs for AI-powered apps)
-- FastAPI (Modern, AI-friendly API development)
-- Authentication, Security (OAuth, JWT, AI-powered security)
-- WebSockets (Real-time AI interactions)
+4. **Standard Library and Modules:**
 
-4️⃣ Data Science & AI Foundations (Essential for AI Integration)
+   - Working with Files (I/O)
+   - Exception Handling
+   - Modules and Packages
+   - `datetime`, `collections`, `os`, `sys` modules
 
-- NumPy, Pandas (Data manipulation)
-- Matplotlib, Seaborn (Data visualization)
-- SQL & NoSQL Databases (PostgreSQL, MongoDB for AI apps)
-- Big Data Tools (PySpark, Dask)
+5. **Best Practices and Tools:**
 
-5️⃣ AI & Machine Learning (Core AI Skills)
+   - PEP 8 Style Guide
+   - Version Control (Git)
+   - Virtual Environments
+   - SOLID Principles
 
-- Machine Learning Basics (scikit-learn)
-- Deep Learning (TensorFlow, PyTorch)
-- Natural Language Processing (NLP - Chatbots, AI text tools)
-- AI for Web (Recommendation Systems, AI-powered search, Auto-completion)
+6. **Testing:**
 
-6️⃣ Cloud Computing & DevOps (Scalability & Deployment)
+   - Unit Testing (unittest, pytest)
+   - Integration Testing
 
-- Docker & Kubernetes (Containerization for AI-powered apps)
-- AWS/GCP/Azure (Cloud AI services)
-- CI/CD Pipelines (GitHub Actions, Jenkins)
-- Serverless Computing (Deploying AI APIs on the cloud)
+7. **APIs and Web Development Basics:**
 
----
+   - Working with HTTP requests (requests library)
+   - Basic API interaction (REST)
+   - Introduction to Web Frameworks (Flask or FastAPI)
 
-## Pending
+8. **Data Science and AI Libraries:**
 
-- Decorators & Generators
-- Error Handling (Custom Exceptions)
-- Regular Expressions (re module)
+   - NumPy (numerical computing)
+   - Pandas (data manipulation)
+   - Matplotlib and Seaborn (data visualization)
+   - Scikit-learn (machine learning)
+   - Tensorflow/Pytorch (Deep learning)
 
----
-
-- Abstract Classes & Interfaces (ABC module)
-- Design Patterns: Singleton, Factory, Observer
-
----
-
-- Reading & Writing Files (open(), with statements)
-- Working with OS & Paths (os, shutil, pathlib)
-- Multi-threading & Multiprocessing
-- Automating File Management
-
----
-
-- Understanding Synchronous vs Asynchronous
-- Using asyncio for non-blocking I/O operations
-- Threading vs Multiprocessing
-- Writing Async APIs
-
----
-
-🎯 Final Project (Applying Everything)
-
-✅ Automated AI-Powered Web Scraper & Data Analyzer
-
-- Uses: Async requests, OOP, File Handling, Regex
-- Steps:
-  - Fetch data from a website (async web scraping)
-  - Clean & analyze data (Regex & Pandas)
-  - Store results in a structured file (CSV/JSON)
+9. **AI Specialization:**
+   - Choose a specialization path (Machine Learning, Deep Learning, NLP)
+   - Deep dive into specific libraries and frameworks.
+   - Projects and practical applications.
