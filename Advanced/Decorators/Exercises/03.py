@@ -26,7 +26,7 @@ def convert_to_int(value: str) -> int:
 
 
 try:
-    result = convert_to_int('20')
+    result = convert_to_int('x')
     print(result)
 except Exception as e:
     print(e)

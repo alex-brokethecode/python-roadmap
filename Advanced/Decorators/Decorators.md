@@ -31,12 +31,12 @@ In this example, my_decorator adds extra functionality before and after the say_
 
 ### Easy
 
-1. **Timing Decorator:** Create a decorator that measures and prints the execution time of a function.
+1. **Timing Decorator:** Create a decorator that measures and prints the execution time of a function. [Solution](./Exercises/01.py)
 
 ### Medium
 
-2. **Logging Decorator:** Create a decorator that logs the input arguments and return value of a function.
+2. **Logging Decorator:** Create a decorator that logs the input arguments and return value of a function. [Solution](./Exercises/02.py)
 
 ### Hard
 
-3. **Retry Decorator:** Create a decorator that retries a function a specified number of times if it raises an exception.
+3. **Retry Decorator:** Create a decorator that retries a function a specified number of times if it raises an exception. [Solution](./Exercises/03.py)
