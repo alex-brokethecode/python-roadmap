@@ -21,7 +21,7 @@
 3. **Advanced Python:**
 
    - [Decorators](./Advanced/Decorators/Decorators.md)
-   - Generators and Iterators
+   - [Generators and Iterators](./Advanced/Generators_and_Iterators/Generators_and_Iterators.md)
    - Context Managers
    - Regular Expressions
    - Asynchronous Programming (asyncio)
