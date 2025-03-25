@@ -9,7 +9,7 @@ def generate_fibonacci(limit: int):
 
     a, b = 0, 1
 
-    while a <= limit:
+    for _ in range(limit + 1):
         yield a
         a, b = b, a + b
 
