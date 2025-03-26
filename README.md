@@ -23,8 +23,8 @@
    - [Decorators](./Advanced/Decorators/Decorators.md)
    - [Generators and Iterators](./Advanced/Generators_and_Iterators/Generators_and_Iterators.md)
    - [Context Managers](./Advanced/Context_Managers/Context_Managers.md)
-   - [Regular Expressions]
-   - Asynchronous Programming (asyncio)
+   - [Regular Expressions](./Advanced/Regular_Expressions/Regular_Expressions.md)
+   - [Asynchronous Programming (asyncio)](./Advanced/Asyncio/Asyncio.md)
 
 4. **Standard Library and Modules:**
 
