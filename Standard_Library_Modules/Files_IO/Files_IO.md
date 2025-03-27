@@ -9,7 +9,7 @@ Python provides built-in functions for reading from and writing to files. The `o
   - `filename`: The name of the file to open.
   - `mode`: A string specifying the mode in which the file should be opened. Common modes include:
     - `'r'`: Read mode (default). Opens the file for reading.
-    - `'w'`: Write mode. Opens the file for writing. If the file exists, it is truncated. If it doesn't exist, it is created.
+    - `'w'`: Write mode. Opens the file for writing. If the file exists, it is truncated (delete all existing content and size to zero). If it doesn't exist, it is created.
     - `'a'`: Append mode. Opens the file for writing. Data written will be appended to the end of the file. If the file doesn't exist, it is created.
     - `'x'`: Exclusive creation mode. Opens the file for writing only if it doesn't exist. If it exists, it raises a `FileExistsError`.
     - `'b'`: Binary mode (can be combined with other modes, e.g., `'rb'`, `'wb'`).
@@ -18,6 +18,7 @@ Python provides built-in functions for reading from and writing to files. The `o
   - `file.read()`: Reads the entire content of the file as a single string.
   - `file.readline()`: Reads a single line from the file.
   - `file.readlines()`: Reads all lines from the file and returns them as a list of strings.
+  - With these methods, the file pointer moves forward. To reread the file content, can close and reopen the file or use `file.seek(0)`.
 - **Writing to Files:**
   - `file.write(string)`: Writes a string to the file.
   - `file.writelines(list_of_strings)`: Writes a list of strings to the file.
@@ -34,6 +35,10 @@ with open('my_file.txt', 'r') as f:
 with open('output.txt', 'w') as f:
     f.write('Hello, world!')
 ```
+
+- Can combine some modes: The most common combination is using `'r+'` or `'w+'`.
+  - `'r+'` (Read and Write): Opens the file for both reading and writing. The file pointer is initially at the beginning of the file. If the file doesn't exist, it raises a `FileNotFoundError`.
+  - `'w+'` (Write and Read): Opens the file for both writing and reading. If the file exists, it's truncated. If it doesn't exist, it's created. The file pointer is initially at the beginning.
 
 ## Exercises
 
