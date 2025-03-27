@@ -56,12 +56,12 @@ for item in my_generator(3):
 
 ### Easy
 
-1. **Generate Squares:** Create a generator function that yields the squares of numbers from 0 to n.
+1. **Generate Squares:** Create a generator function that yields the squares of numbers from 0 to n. [Solution](./Exercises/01.py)
 
 ### Medium
 
-2. **Fibonacci Generator:** Create a generator function that yields the Fibonacci sequence up to a given limit.
+2. **Fibonacci Generator:** Create a generator function that yields the Fibonacci sequence up to a given limit. [Solution](./Exercises/02.py)
 
 ### Hard
 
-3. **Prime Number Generator:** Create a generator function that yields prime numbers indefinitely.
+3. **Prime Number Generator:** Create a generator function that yields prime numbers indefinitely. [Solution](./Exercises/03.py)

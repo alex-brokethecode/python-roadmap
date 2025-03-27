@@ -56,12 +56,12 @@ print(f"New text: {new_text}")
 
 ### Easy
 
-1. **Find Email Addresses:** Write a regular expression to find all email addresses in a given text.
+1. **Find Email Addresses:** Write a regular expression to find all email addresses in a given text. [Solution](./Exercises/01.py)
 
 ### Medium
 
-2. **Validate Phone Numbers:** Write a regular expression to validate phone numbers in a specific format (e.g., xxx-xxx-xxxx).
+2. **Validate Phone Numbers:** Write a regular expression to validate phone numbers in a specific format (e.g., xxx-xxx-xxxx). [Solution](./Exercises/02.py)
 
 ### Hard
 
-3. Extract Information from Log Files: Given a log file with entries like `[INFO] 2023-10-26 10:00:00 - User logged in`, write a regular expression to extract the log level, timestamp, and message.
+3. Extract Information from Log Files: Given a log file with entries like `[INFO] 2023-10-26 10:00:00 - User logged in`, write a regular expression to extract the log level, timestamp, and message. [Solution](./Exercises/03.py)

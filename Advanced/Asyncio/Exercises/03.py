@@ -29,14 +29,3 @@ async def main() -> None:
     await asyncio.gather(*tasks)
 
 asyncio.run(main())
-
-
-# async def main():
-#     async with aiohttp.ClientSession() as session:
-#         async with session.get('http://python.org') as response:
-#             print('Status:', response.status)
-#             html = await response.text()
-#             print('Body:', html[:15], "...")
-
-
-# asyncio.run(main())
