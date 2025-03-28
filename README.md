@@ -29,7 +29,7 @@
 4. **Standard Library and Modules:**
 
    - [Working with Files (I/O)](./Standard_Library_Modules/Files_IO/Files_IO.md)
-   - Exception Handling
+   - [Exception Handling](./Standard_Library_Modules/Exception_Handling/Exception_Handling.md)
    - Modules and Packages
    - `datetime`, `collections`, `os`, `sys` modules
 
