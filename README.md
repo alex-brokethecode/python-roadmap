@@ -35,6 +35,7 @@
      - [datetime](./Standard_Library_Modules/Core_Modules/Datetime/Datetime.md)
      - [collections](./Standard_Library_Modules/Core_Modules/Collections/Collections.md)
      - [os](./Standard_Library_Modules/Core_Modules/OS/OS.md)
+     - [json](./Standard_Library_Modules/Core_Modules/JSON/JSON.md)
      - `sys`
 
 5. **Best Practices and Tools:**
