@@ -32,10 +32,10 @@
    - [Exception Handling](./Standard_Library_Modules/Exception_Handling/Exception_Handling.md)
    - [Modules and Packages](./Standard_Library_Modules/Modules_Packages/Modules_Packages.md)
    - Core modules
-      - [datetime](./Standard_Library_Modules/Core_Modules/Datetime/Datetime.md)
-      - [collections](./Standard_Library_Modules/Core_Modules/Collections/Collections.md)
-      - `os`
-      - `sys`
+     - [datetime](./Standard_Library_Modules/Core_Modules/Datetime/Datetime.md)
+     - [collections](./Standard_Library_Modules/Core_Modules/Collections/Collections.md)
+     - [os](./Standard_Library_Modules/Core_Modules/OS/OS.md)
+     - `sys`
 
 5. **Best Practices and Tools:**
 
