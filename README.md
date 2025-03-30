@@ -3,7 +3,7 @@
 1. **Python Fundamentals:**
 
    - Variables, Data Types, and Operators
-   - Control Flow (if, loops)
+   - Control Flow (if, loops, while)
    - (^\_^) [Functions](./Fundamentals/Functions/Advanced_Functions.md)
    - Data Structures
      - [Lists](./Fundamentals/Lists/Lists.md)
@@ -36,7 +36,13 @@
      - [collections](./Standard_Library_Modules/Core_Modules/Collections/Collections.md)
      - [os](./Standard_Library_Modules/Core_Modules/OS/OS.md)
      - [json](./Standard_Library_Modules/Core_Modules/JSON/JSON.md)
-     - `sys`
+     - [requests](./Standard_Library_Modules/Core_Modules/Requests/Requests.md)
+     - sys
+     - sqlite3
+     - argparse
+     - logging
+     - random
+     - timeit
 
 5. **Best Practices and Tools:**
 
@@ -50,13 +56,12 @@
    - Unit Testing (unittest, pytest)
    - Integration Testing
 
-7. **APIs and Web Development Basics:**
+7. **Web Development Basics:**
 
-   - Working with HTTP requests (requests library)
-   - Basic API interaction (REST)
-   - Introduction to Web Frameworks (Flask or FastAPI)
+   - Web Frameworks (Django, FastAPI)
+   - RESTful APIs
 
-8. **Data Science and AI Libraries:**
+8. **Data Science and Machine Learning:**
 
    - NumPy (numerical computing)
    - Pandas (data manipulation)
