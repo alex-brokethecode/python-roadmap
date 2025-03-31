@@ -37,12 +37,12 @@
      - [os](./Standard_Library_Modules/Core_Modules/OS/OS.md)
      - [json](./Standard_Library_Modules/Core_Modules/JSON/JSON.md)
      - [requests](./Standard_Library_Modules/Core_Modules/Requests/Requests.md)
-     - sys
-     - sqlite3
+     - [sqlite3](./Standard_Library_Modules/Core_Modules/SQLite/SQLite.md)
      - argparse
      - logging
      - random
      - timeit
+     - sys
 
 5. **Best Practices and Tools:**
 
