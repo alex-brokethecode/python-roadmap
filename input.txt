@@ -1,4 +1,0 @@
-Hello
-World
-Testing files
-Bye bye
