@@ -38,7 +38,7 @@
      - [json](./Standard_Library_Modules/Core_Modules/JSON/JSON.md)
      - [requests](./Standard_Library_Modules/Core_Modules/Requests/Requests.md)
      - [sqlite3](./Standard_Library_Modules/Core_Modules/SQLite/SQLite.md)
-     - argparse
+     - [argparse](./Standard_Library_Modules/Core_Modules/Argparse/Argparse.md)
      - logging
      - random
      - timeit
