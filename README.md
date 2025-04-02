@@ -41,7 +41,7 @@
      - [argparse](./Standard_Library_Modules/Core_Modules/Argparse/Argparse.md)
      - [logging](./Standard_Library_Modules/Core_Modules/Logging/Logging.md)
      - [random](./Standard_Library_Modules/Core_Modules/Random/Random.md)
-     - timeit
+     - [timeit](./Standard_Library_Modules/Core_Modules/Timeit/Timeit.md)
      - sys
 
 5. **Best Practices and Tools:**
