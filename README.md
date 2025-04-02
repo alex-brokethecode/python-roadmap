@@ -40,7 +40,7 @@
      - [sqlite3](./Standard_Library_Modules/Core_Modules/SQLite/SQLite.md)
      - [argparse](./Standard_Library_Modules/Core_Modules/Argparse/Argparse.md)
      - [logging](./Standard_Library_Modules/Core_Modules/Logging/Logging.md)
-     - random
+     - [random](./Standard_Library_Modules/Core_Modules/Random/Random.md)
      - timeit
      - sys
 
