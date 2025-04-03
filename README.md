@@ -42,7 +42,7 @@
      - [logging](./Standard_Library_Modules/Core_Modules/Logging/Logging.md)
      - [random](./Standard_Library_Modules/Core_Modules/Random/Random.md)
      - [timeit](./Standard_Library_Modules/Core_Modules/Timeit/Timeit.md)
-     - sys
+     - [sys](./Standard_Library_Modules/Core_Modules/Sys/Sys.md)
 
 5. **Best Practices and Tools:**
 
