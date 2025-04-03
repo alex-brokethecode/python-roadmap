@@ -46,7 +46,7 @@
 
 5. **Best Practices and Tools:**
 
-   - PEP 8 Style Guide
+   - [PEP 8 Style Guide](./Best_Practices_Tools/PEP_8/PEP_8.md)
    - Version Control (Git)
    - Virtual Environments
    - SOLID Principles
