@@ -2,9 +2,9 @@
 
 1. **Python Fundamentals:**
 
-   - Variables, Data Types, and Operators
-   - Control Flow (if, loops, while)
-   - (^\_^) [Functions](./Fundamentals/Functions/Advanced_Functions.md)
+   - [Variables, Data Types, and Operators](./Fundamentals/Variables_Types_Operators.md)
+   - [Control Flow (if, loops, while)](./Fundamentals/Control_Flow.md)
+   - [Functions](./Fundamentals/Functions/Advanced_Functions.md)
    - Data Structures
      - [Lists](./Fundamentals/Lists/Lists.md)
      - [Dicts](./Fundamentals/Dicts/Dicts.md)
@@ -13,10 +13,7 @@
 
 2. **Object-Oriented Programming (OOP):**
 
-   - (^\_^) [Classes and Objects](./OOP/OOP_Pillars.md)
-   - Inheritance
-   - Polymorphism
-   - Encapsulation
+   - [OOP](./OOP/OOP_Pillars.md)
 
 3. **Advanced Python:**
 
@@ -50,7 +47,7 @@
    - [Version Control (Git)](./Best_Practices_Tools/Git.md)
    - [Virtual Environments](./Best_Practices_Tools/Venv.md)
    - [Tools](./Best_Practices_Tools/Tools.md)
-   - SOLID Principles
+   - [SOLID Principles](./Best_Practices_Tools/SOLID.md)
 
 6. **Testing:**
 
