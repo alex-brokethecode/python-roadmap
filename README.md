@@ -53,20 +53,6 @@
 
    - [Unit Testing (unittest, pytest)](./testing/Unit_Testing.md)
 
-7. **Web Development Basics:**
+7. **Projects:**
 
-   - Web Frameworks (Django, FastAPI)
-   - RESTful APIs
-
-8. **Data Science and Machine Learning:**
-
-   - NumPy (numerical computing)
-   - Pandas (data manipulation)
-   - Matplotlib and Seaborn (data visualization)
-   - Scikit-learn (machine learning)
-   - Tensorflow/Pytorch (Deep learning)
-
-9. **AI Specialization:**
-   - Choose a specialization path (Machine Learning, Deep Learning, NLP)
-   - Deep dive into specific libraries and frameworks.
-   - Projects and practical applications.
+   - [List of projects](./projects/projects.md)
