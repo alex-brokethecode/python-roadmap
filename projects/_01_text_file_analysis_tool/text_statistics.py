@@ -63,15 +63,19 @@ def display_statistics(text: str, number: int | None) -> None:
         text: The text to analyze.
         number: Optional number of most frequent words to display.
     """
-    print(f'\n{"Number of":^20} | {"Count":^20}')
-    print('-' * 42)
+    from terminal_colors import TerminalColors, colored_print
 
-    print(f'{"words":<20}   {calculate_words_count(text):^20}')
-    print(f'{"lines":<20}   {calculate_lines_count(text):^20}')
-    print(f'{"characters":<20}   {calculate_characters_count(text):^20}')
+    colored_print(f'\n{"Number of":^20}{"Count":^20}',
+                  TerminalColors.FG_CYAN, bold=True)
+    colored_print('-' * 40, TerminalColors.FG_CYAN)
 
-    print(f'\n{"Words Frequency":^42}')
-    print('-' * 42)
+    print(f'{"words":<20}{calculate_words_count(text):^20}')
+    print(f'{"lines":<20}{calculate_lines_count(text):^20}')
+    print(f'{"characters":<20}{calculate_characters_count(text):^20}')
+
+    colored_print(f'\n{"Words Frequency":^42}',
+                  TerminalColors.FG_YELLOW, bold=True)
+    colored_print('-' * 40, TerminalColors.FG_YELLOW)
 
     words_frequency = calculate_words_frequency(text, number)
 

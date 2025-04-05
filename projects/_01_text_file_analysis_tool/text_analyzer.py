@@ -12,8 +12,7 @@ def main() -> int:
     """
     try:
         args = parse_arguments()
-        filename = args.filename
-        words = args.words
+        filename, words = args.filename, args.words
 
         if words is not None and words <= 0:
             print('Error: --words must be a positive integer.')
@@ -34,3 +33,4 @@ if __name__ == '__main__':
     sys.exit(main())
 
 # TODO: Add testing
+# TODO: Add colors

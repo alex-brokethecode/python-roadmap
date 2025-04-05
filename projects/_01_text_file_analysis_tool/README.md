@@ -21,18 +21,19 @@ This project involves creating a command-line tool that analyzes a given text fi
 - **Collections Module:** Using Counter to count word frequencies.
 - **Command-Line Arguments:** Using argparse to handle user input.
 - **Error Handling:** Handling potential errors, such as file not found.
+- **ANSI escape code:** Applying colors to foreground and background. [source](https://en.wikipedia.org/wiki/ANSI_escape_code)
 
 ## Potential Modules
 
 - `argparse`: For parsing command-line arguments.
 - `collections`: For using `Counter` to count word frequencies.
-- `os`: For file existence checks.
+- `os` or `pathlib`: For file existence checks.
 - `re`: For more advanced text cleaning (optional).
 
 ## Example Usage
 
 ```shell
-python text_analyzer.py my_file.txt --words 10 --ignore "the,a,an"
+python text_analyzer.py my_file.txt --words 10
 ```
 
 This command would analyze `my_file.txt`, display the top 10 most frequent words, and ignore the words "the," "a," and "an."
