@@ -53,6 +53,8 @@
 
    - [Unit Testing (unittest, pytest)](./testing/Unit_Testing.md)
 
-7. **Projects:**
+7. **New Topics soon...**
 
-   - [List of projects](./projects/projects.md)
+## Projects
+
+- [List of projects](https://github.com/iBrokeTheCode/python-projects)
