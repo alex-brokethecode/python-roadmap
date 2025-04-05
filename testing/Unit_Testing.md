@@ -42,6 +42,7 @@ Testing is crucial for software quality. It ensures code functions as intended, 
 
 `pytest` **Assertions (Examples):**
 
+- `pip install -U pytest`
 - `assert a == b`: Checks if a equals b.
 - `assert x`: Checks if x is true.
 - `assert a is b`: Checks if a is the same object as b.
