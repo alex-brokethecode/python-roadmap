@@ -41,7 +41,7 @@
      - [timeit](./Standard_Library_Modules/Core_Modules/Timeit/Timeit.md)
      - [sys](./Standard_Library_Modules/Core_Modules/Sys/Sys.md)
 
-5. **Best Practices and Tools:**
+5. **Best Practices:**
 
    - [PEP 8 Style Guide](./Best_Practices_Tools/PEP_8.md)
    - [Version Control (Git)](./Best_Practices_Tools/Git.md)
@@ -53,7 +53,9 @@
 
    - [Unit Testing (unittest, pytest)](./testing/Unit_Testing.md)
 
-7. **New Topics soon...**
+7. **Tools:**
+
+   - [Poetry](./Tools/poetry.md)
 
 ## Projects
 
