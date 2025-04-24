@@ -56,6 +56,7 @@
 7. **Tools:**
 
    - [Poetry](./Tools/poetry.md)
+   - [djLint](./Tools/djlint.md)
 
 ## Projects
 
