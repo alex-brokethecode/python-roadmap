@@ -57,6 +57,7 @@
 
    - [Poetry](./Tools/poetry.md)
    - [djLint](./Tools/djlint.md)
+   - [ruff](./Tools/ruff.md)
 
 ## Projects
 
