@@ -56,6 +56,7 @@
 7. **Tools:**
 
    - [Poetry](./Tools/poetry.md)
+   - [uv](./Tools/uv.md)
    - [djLint](./Tools/djlint.md)
    - [ruff](./Tools/ruff.md)
 
