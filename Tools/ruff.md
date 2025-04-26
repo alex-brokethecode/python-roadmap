@@ -67,7 +67,7 @@ To leverage Ruff's capabilities directly within VS Code, you'll want to install 
     }
     ```
 
-    Optionally, you can add custom settings for Ruff in your `pyproject.toml` file (if you're using Poetry). For example, to change default double quotes to single quotes, you can add:
+    Optionally, you can add custom settings for Ruff in your `pyproject.toml` file (if you're using Poetry) or `ruff.toml`. For example, to change default double quotes to single quotes, you can add:
 
     ```toml
     [tool.ruff.format]
