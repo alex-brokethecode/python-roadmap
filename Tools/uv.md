@@ -61,6 +61,17 @@ uv provides its own commands for package management and project tasks. Here are 
   ```bash
   uv init your_project_name
   cd your_project_name
+
+  # optionally
+  uv init your_project_name --python 12.3
+  ```
+
+- **Managing Python versions**
+
+  ```shell
+  uv python list # list available python versions
+  uv python install <version>
+  uv python uninstall <version>
   ```
 
 - **Managing Virtual Environments:**
@@ -115,15 +126,29 @@ uv provides its own commands for package management and project tasks. Here are 
 
   These tools become available in your system's PATH.
 
+- **Display tree dependencies**
+
+  ```shell
+  uv tree
+  ```
+
+- **Display packages**
+
+  ```shell
+  uv pip list # list packages
+  uv pip show <package> # package info
+  ```
+
 ## Integration with Development Tools (VS Code Example)
 
 While there isn't a dedicated "uv" extension for VS Code at the time of this writing, you can still leverage its speed by using it in your terminal and configuring Python extensions to use the environment managed by uv.
 
 1.  **Install uv globally.**
-2.  **Create and manage your virtual environment using `uv venv`.**
-3.  **Activate the virtual environment.**
-4.  **Install your project dependencies using `uv pip sync` or `uv add`.**
-5.  **Configure your VS Code Python extension:**
+2.  **Init your project with `uv init <name> --python <version>`**
+3.  **Create and manage your virtual environment using `uv venv`.**
+4.  **Activate the virtual environment.**
+5.  **Install your project dependencies using `uv pip sync` or `uv add`.**
+6.  **Configure your VS Code Python extension:**
 
     - In VS Code settings (Ctrl+, or Cmd+,), search for `Python: Python Path`.
     - Set the Python Path to the Python executable within your uv-managed virtual environment (e.g., `.venv/bin/python`).
